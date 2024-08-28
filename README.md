@@ -1,10 +1,10 @@
 # Zitux - A Tribute to Our Legacy
 
-Welcome to the Zitux repository! This project serves as a commemoration of Zitux, the company founded by **Sebastián Iturralde** and **Daniel Vaca** in 2003. Zitux started as a web design company and, during its time, accomplished many creative and technical milestones, with Daniel as the lead front-end developer.
+Welcome to the Zitux repository! This project serves as a commemoration of Zitux, the company founded by **Sebastián Iturralde** and **Daniel Vaca** in 2009. Zitux started as a web design company and, during its time, accomplished many creative and technical milestones, with Daniel as the lead front-end developer.
 
 ## About Zitux
 
-In the early 2000s, Zitux was at the forefront of web design, creating cutting-edge websites that pushed the boundaries of what was possible at the time. Daniel’s innovative templates and our collaborative designs were ahead of their era, demonstrating our dedication to providing clients with high-quality and unique digital experiences.
+In the late 2000s, Zitux was at the forefront of web design, creating cutting-edge websites that pushed the boundaries of what was possible at the time. Daniel’s innovative templates and our collaborative designs were ahead of their era, demonstrating our dedication to providing clients with high-quality and unique digital experiences.
 
 Although Zitux no longer provides front-end development services, the essence of the company remains in this repository as a reminder of our efforts, achievements, and the passion we poured into our work.
 
