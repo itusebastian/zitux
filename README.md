@@ -36,4 +36,4 @@ To anyone who visits this repository or the Zitux site—thank you for taking th
 
 ---
 **Zitux**  
-_Founded in 2003 by Sebastián Iturralde and Daniel Vaca_
+_Founded in 2009 by Sebastián Iturralde and Daniel Vaca_
