@@ -1,0 +1,198 @@
+/**
+ * @package   Omnicron Template - RocketTheme
+ * @version   1.5.0 September 1, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/** TEXT COLORS **/
+/* Core */
+body {color: #666;}
+a {color: #427bac;}
+a:hover, #more-articles:hover {color: #333;}
+
+/* Header */
+#rt-header-surround, #rt-drawer, #rt-top, #rt-bottom-surround, #rt-footerbar, #rt-header, #rt-bottom, #rt-footer, #rt-copyright {color: #ccc;}
+#rt-header-surround a:hover, #rt-drawer a:hover, #rt-top a:hover, #rt-bottom-surround a:hover, #rt-footerbar a:hover, .fusion-module a:hover {color: #fff;}
+
+/* Top Menu */
+.menutop li .item {color: #fff;}
+.menutop li.active.root > .item, .menutop li.active.root.f-mainparent-itemfocus > .item,
+.menutop li.root:hover > .item, .menutop li.root.f-mainparent-itemfocus > .item, .menu-type-splitmenu .menutop li.active > .item, .menu-type-splitmenu .menutop li:hover > .item, .menutop ul li > .item:hover, .menutop li.f-menuparent-itemfocus > .item, .menutop li.active > .item {color: #fff;background: #435465;}
+
+/* Modules */
+.title span {color: #427bac;}
+.box1, .box1 .title, .title1 .module-title .title {color: #666;}
+.box1 a, .box1 .title span, .title1 .module-title .title span {color: #427bac;}
+.box2, .box2 .title, .title2 .module-title .title {color: #666;}
+.box2 a, .box2 .title span, .title2 .module-title .title span {color: #427bac;}
+.box3, .box3 .title, .title3 .module-title .title {color: #666;}
+.box3 a, .box3 .title span, .title3 .module-title .title span {color: #427bac;}
+.box4, .box4 .title, .title4 .module-title .title {color: #ccc;}
+.box4 a, .box4 .title span, .title4 .module-title .title span {color: #427bac;}
+.box5, .box5 .title, .title5 .module-title .title {color: #fff;}
+.box5 a, .box5 .title span, .title5 .module-title .title span {color: #B5E0E0;}
+.box6, .box6 .title, .title6 .module-title .title {color: #ccc;}
+.box6 a, .box6 .title span, .title6 .module-title .title span {color: #fff;}
+
+/* Typography */
+.readonstyle-button .readon .button, .readonstyle-button .readon, .readonstyle-button .readon span {color: #fff;}
+.inputbox {color: #666;}
+.featuretable {color: #333;}
+.featuretable .name {color:#eee;background:#333;border-bottom:1px solid #606060;border-top:1px solid #222;}
+.featuretable .item1 {color: #fff;}
+.featuretable .item2 {color: #427bac;}
+.featuretable-col.highlight .name {background: #4d88ba;border-bottom: 1px solid #92b5d3;border-top: 1px solid #79a3c8;}
+.featuretable-col.highlight .item2 {color: #fff;}
+.roktabs-links ul li.active span, .roktabs-links ul li.active span:hover, .featuretabs .roktabs-links ul li.active span, .featuretabs .roktabs-links ul li.active span:hover {color: #427bac;}
+.featuretabs .roktabs-links ul li.active .tabnumber2, .featuretabs .roktabs-links ul li.active:hover .tabnumber2 {color: #fff;}
+.roktabs-links ul li span:hover {color: #333;}
+.step-text {color: #ccc;}
+.step-text span, .stepbar-button span, .featuretabs .roktabs-links ul li span {color: #666;}
+.module-content ul.menu a:hover span, .module-content ul.menu li.active > a span, .module-content ul.menu li.active > .separator span, .module-content ul.menu li.active > .item span {color: #fff;}
+
+/** IMAGES AND BACKGROUNDS **/
+/* Core */
+body {background: #151515;}
+
+/* Logo */
+#rt-logo {background: url(/templates/rt_omnicron_j15/images/logo/style6/logo.png) no-repeat 0 0;  margin-bottom: 0;  margin-left: 0;  margin-right: 0;  margin-top: 0;  border-width: 0 0 0 0;     }
+
+/* Top Menu */
+.rt-menubar {background: url(/templates/rt_omnicron_j15/images/style6/menubar-m.png) 0 0 repeat-x;}
+.rt-menubar2 {background: url(/templates/rt_omnicron_j15/images/style6/menubar-l.png) 0 0 no-repeat;}
+.rt-menubar3 {background: url(/templates/rt_omnicron_j15/images/style6/menubar-r.png) 100% 0 no-repeat;}
+.menutop li.root, .menu-type-splitmenu .menutop li {background-image: url(/templates/rt_omnicron_j15/images/style6/menubar-div.png);}
+.menutop li.parent.root > .item .daddyicon, .menutop li.root > .daddy.item .daddyicon {background-image: url(/templates/rt_omnicron_j15/images/style6/topdaddy.png);}
+.menu-type-splitmenu .menutop li.parent .item span {background-image: url(/templates/rt_omnicron_j15/images/style6/topdaddy.png);}
+.menutop .fusion-submenu-wrapper {background: #2A3747 url(/templates/rt_omnicron_j15/images/dropdown-overlay.png) 50% 0 repeat-x;}
+.menutop ul li > .daddy span {background: url(/templates/rt_omnicron_j15/images/style6/arrow.png) 100% 50% no-repeat;}
+
+/* Header */
+#rt-drawer, #rt-top {background: #030B10;}
+#rt-header-surround {background: #030B10 url(/templates/rt_omnicron_j15/images/style6/header-top.png) 50% 0 repeat-x;border-top: 8px solid #030B10;}
+#rt-header-surround2 {background: url(/templates/rt_omnicron_j15/images/style6/header-bottom.png) 50% 100% repeat-x;}
+.backgroundlevel-high #rt-header-overlay {background: url(/templates/rt_omnicron_j15/images/style6/header-overlay.jpg) 50% 1px no-repeat;}
+.backgroundlevel-med #rt-header-overlay {background: url(/templates/rt_omnicron_j15/images/style6/header-grad.png) 50% 1px repeat-x;}
+
+/* Main Body */
+#rt-body-surround {background: url(/templates/rt_omnicron_j15/images/style6/body-shadow-m.png) 50% 0 repeat-x;}
+#rt-body-surround2 {background: url(/templates/rt_omnicron_j15/images/style6/body-shadow-l.png) 0 0 no-repeat;}
+#rt-body-surround3 {background: url(/templates/rt_omnicron_j15/images/style6/body-shadow-r.png) 100% 0 no-repeat;}
+.bodylevel-low #rt-body-surround4 {background: #151515;}
+
+/* Module Box Variations */
+.box1 .rt-block, .box1 #rt-mainbody {background: #F1F1F1 url(/templates/rt_omnicron_j15/images/style6/box1-bg.png) 50% 0 repeat-x;border: 1px solid #DBDBDB;}
+.box2 .rt-block, .box2 #rt-mainbody {background: #fff;border: 1px solid #DBDBDB;}
+.box3 .rt-block, .box3 #rt-mainbody {background: #d0d0d0;border: 1px solid #c5c5c5;}
+.box4 .rt-block, .box4 #rt-mainbody {background: #111111;border: 1px solid #111111;}
+.box5 .rt-block, .box4 #rt-mainbody {background: #427bac;border: 1px solid #4682b4;}
+.box6 .rt-block, .box4 #rt-mainbody {background: #435465;border: 1px solid #111111;}
+.box7 .rt-block, .box7 #rt-mainbody {border: 1px solid #ccc;}
+.featuretable .rt-block {background: #FAFAFA;border: 1px solid #ccc;}
+
+/* Module Title Variations */
+.title1 .module-title {background: #DCDCDC url(/templates/rt_omnicron_j15/images/style6/title1-bg.png) 0 0 repeat-x;border: 1px solid #DBDBDB;}
+.title2 .module-title {background: #fff;border: 1px solid #DBDBDB;}
+.title3 .module-title {background: #d0d0d0;border: 1px solid #c5c5c5;}
+.title4 .module-title {background: #111111;border: 1px solid #111111;}
+.title5 .module-title {background: #427bac;border: 1px solid #4682b4;}
+.title6 .module-title {background: #435465;border: 1px solid #111111;}
+.title8 .module-title {background: url(/templates/rt_omnicron_j15/images/style6/body-div.png) 50% 100% repeat-x;}
+
+/* Side Menu */
+.module-content ul.menu a, .module-content ul.menu .separator, .module-content ul.menu .item {background-image: url(/templates/rt_omnicron_j15/images/style6/arrow.png);}
+.module-content ul.menu a:hover span, .module-content ul.menu li.active > a span, .module-content ul.menu li.active > .separator span, .module-content ul.menu li.active > .item span {background: #427bac;}
+
+/* Bottom */
+#rt-bottom-surround {background: #030B10;}
+#rt-bottom-surround2 {background: url(/templates/rt_omnicron_j15/images/style6/header-bottom.png) 50% 1px repeat-x;}
+.backgroundlevel-high #rt-bottom-overlay {background: url(/templates/rt_omnicron_j15/images/style6/header-overlay.jpg) 50% 12px no-repeat;}
+.backgroundlevel-med #rt-bottom-overlay {background: url(/templates/rt_omnicron_j15/images/style6/header-grad.png) 50% 12px repeat-x;}
+
+/* Footer */
+#rt-footerbar {background: #000104 url(/templates/rt_omnicron_j15/images/style6/footer-top.png) 50% 0 repeat-x;}
+
+/* Typography */
+.readonstyle-button .readon {background: url(/templates/rt_omnicron_j15/images/style6/readon-r.png) 100% 0 no-repeat;}
+.readonstyle-button .readon .button, .readonstyle-button .readon span {background: url(/templates/rt_omnicron_j15/images/style6/readon-l.png) 0 0 no-repeat;}
+.inputbox, #rt-main .inputbox {background: #d9d9d9;border: 1px solid #ccc;}
+.inputbox:focus, #rt-main .inputbox:focus {background: #fff;border: 1px solid #DBDBDB;}
+#rt-header-surround .inputbox, #rt-drawer .inputbox, #rt-top .inputbox, #rt-bottom-surround .inputbox, #rt-footerbar .inputbox, .fusion-submenu-wrapper .fusion-module .inputbox {background: #435465;border: 1px solid #111 !important;color: #ccc;}
+#rt-header-surround .inputbox:focus, #rt-drawer .inputbox:focus, #rt-top .inputbox:focus, #rt-bottom-surround .inputbox:focus, #rt-footerbar .inputbox:focus, .fusion-module .inputbox:focus {background: #5A7288;border: 1px solid #111 !important;color: #fff;}
+#system-message dd.error ul {color: #c00;background: transparent url(/templates/rt_omnicron_j15/images/drawer-overlay.png) 50% 0 repeat-x;}
+#system-message dd ul {color: #0055BB;background: transparent url(/templates/rt_omnicron_j15/images/drawer-overlay.png) 50% 0 repeat-x;}
+#system-message dd.notice ul {color: #A08B4C;background: transparent url(/templates/rt_omnicron_j15/images/drawer-overlay.png) 50% 0 repeat-x;}
+div.rt-more-articles {background: url(/templates/rt_omnicron_j15/images/style6/body-div.png) 50% 0 repeat-x;}
+#more-articles span {background: url(/templates/rt_omnicron_j15/images/style6/roktabs-arrow.png) 100% 50% no-repeat;}
+.rokradios, .rokchecks, .rokradios-active, .rokchecks-active {background-image: url(/templates/rt_omnicron_j15/images/style6/rokinputs.png);}
+#form-login ul li a, #com-form-login ul li a, ul.rt-more-articles li a, .rt-section-list ul li a, ul.mostread li a, ul.latestnews li a, .weblinks ul li a {background-image: url(/templates/rt_omnicron_j15/images/style6/arrow.png);}
+.rt-pollrow {background: url(/templates/rt_omnicron_j15/images/style6/body-div.png) 50% 0 repeat-x;}
+.details-layout3 .rt-articleinfo {background: #fff;}
+#breadcrumbs-home {background-image: url(/templates/rt_omnicron_j15/images/articleicons.png);}
+#rt-breadcrumbs .no-link {background: #ccc;border-radius: 6px;}
+.details-layout3 .rt-infobutton {background: url(/templates/rt_omnicron_j15/images/details-icon.png) 0 0 no-repeat;}
+.rt-joomla .icon {background-image: url(/templates/rt_omnicron_j15/images/articleicons.png);}
+#rt-accessibility a.small .button, #rt-accessibility a.large .button {background-image: url(/templates/rt_omnicron_j15/images/style6/utility-icons.png);}
+#rocket {background: url(/templates/rt_omnicron_j15/images/style6/rocket.png) 0 0 no-repeat;}
+
+/* Feature Table */
+.featuretable {background: #FAFAFA;}
+.featuretable-border {border: 1px solid #ccc;}
+.featuretable-col-border {border-right: 1px solid #ccc;}
+.featuretable-head {background: #29262C url(/templates/rt_omnicron_j15/images/style6/table-head.png) 50% 0 repeat-x;}
+.highlight .featuretable-head {background: #4d88ba url(/templates/rt_omnicron_j15/images/style6/table-highlight.png) 50% 0 repeat-x;}
+.featuretable-cell {border-bottom: 1px solid #ccc;border-top: 1px solid #fff;}
+.featuretable-cell.bg {background: #E5E4E4 url(/templates/rt_omnicron_j15/images/style6/table-bg1.png) 50% 0 repeat-x;}
+.featuretable-col.ft-col-even {background: #E3E2E2;}
+.featuretable-col.ft-col-even .featuretable-cell.bg {background: #D6D4D4 url(/templates/rt_omnicron_j15/images/style6/table-bg2.png) 50% 0 repeat-x;}
+
+/* RokTabs - Feature */
+.featuretabs .roktabs .active-arrows, .featuretabs .roktabs .roktabs-links {background: #dedede url(/templates/rt_omnicron_j15/images/style6/stepbar-bg.png) 50% 0 repeat-x;border: 1px solid #dbdbdb;}
+.featuretabs .roktabs-wrapper .roktabs-links ul li .tabnumber {background: url(/templates/rt_omnicron_j15/images/style6/stepbar-badge.png) 0 0 no-repeat;}
+
+/* RokTabs */
+.roktabs-container-inner {background: #F1F1F1 url(/templates/rt_omnicron_j15/images/style6/box1-bg.png) 50% 0 repeat-x;border: 1px solid #DBDBDB;}
+.roktabs-links ul li {background: #DCDCDC url(/templates/rt_omnicron_j15/images/style6/title1-bg.png) 0 0 repeat-x;border: 1px solid #DBDBDB;}
+.roktabs-links ul li span {background: url(/templates/rt_omnicron_j15/images/style6/roktabs-arrow.png) 100% 50% no-repeat;}
+.roktabs-links ul li.active {background: #F7F7F7;}
+.roktabs-wrapper .arrow-next, .roktabs-wrapper .arrow-prev {background-image: url(/templates/rt_omnicron_j15/images/style6/roktabs-controls.png);}
+
+/* RokStories */
+#rt-header-surround .rokstories-layout6 .feature-circles-sub, #rt-header-surround .rokstories-layout6 .feature-arrow-r, #rt-header-surround .rokstories-layout6 .feature-arrow-l {background-image: url(/templates/rt_omnicron_j15/images/style6/rokstories-controls.png);}
+#rt-header-surround .rokstories-layout6 .feature-controls {background: #30373B;}
+
+/* RokAjaxSearch */
+.roksearch-wrapper, #roksearch_results, .roksearch_even {background: #fff;}
+#roksearch_search_str {background-image: url(/templates/rt_omnicron_j15/images/style6/utility-icons.png);}
+.roksearch_odd {background: #f0f0f0;}
+.roksearch_odd:hover, .roksearch_even:hover {background: #ddd;}
+
+/* RTL */
+.readonstyle-button.rtl .readon {background-image: url(/templates/rt_omnicron_j15/images/style6/rtl/readon-r.png);}
+.readonstyle-button.rtl .readon .button, .readonstyle-button.rtl .readon span {background-image: url(/templates/rt_omnicron_j15/images/style6/rtl/readon-l.png);}
+body.rtl #form-login ul li a, body.rtl #com-form-login ul li a, body.rtl ul.rt-more-articles li a, body.rtl .rt-section-list ul li a, body.rtl ul.mostread li a, body.rtl ul.latestnews li a, body.rtl .weblinks ul li a {background-image: url(/templates/rt_omnicron_j15/images/style6/rtl/arrow.png);}
+body.rtl .featuretable-col-border {border-right: 0;border-left: 1px solid #ccc;}
+body.rtl .module-content ul.menu a, body.rtl .module-content ul.menu .separator, body.rtl .module-content ul.menu .item {background-image: url(/templates/rt_omnicron_j15/images/style6/rtl/arrow.png);}
+body.rtl .menutop ul li > .daddy span {background: url(/templates/rt_omnicron_j15/images/style6/rtl/arrow.png) 5px 50% no-repeat;}
+/*
+     FILE ARCHIVED ON 16:46:07 Feb 09, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:45 Sep 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.891
+  exclusion.robots: 0.05
+  exclusion.robots.policy: 0.03
+  esindex: 0.02
+  cdx.remote: 11.753
+  LoadShardBlock: 135.622 (3)
+  PetaboxLoader3.resolve: 113.738 (3)
+  PetaboxLoader3.datanode: 51.728 (4)
+  load_resource: 57.398
+*/

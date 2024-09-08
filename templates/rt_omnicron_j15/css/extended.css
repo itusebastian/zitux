@@ -1,0 +1,570 @@
+/**
+ * @package   Omnicron Template - RocketTheme
+ * @version   1.5.0 September 1, 2010
+ * @author    RocketTheme http://www.rockettheme.com
+ * @copyright Copyright (C) 2007 - 2010 RocketTheme, LLC
+ * @license   http://www.rockettheme.com/legal/license.php RocketTheme Proprietary Use License
+*/
+
+/* JOMSOCIAL OVERRIDES */
+
+/* General */
+#community-wrap .button {height: 30px;line-height: 30px;border: none;}
+.cssstyle-style1 #community-wrap .button {background: #E57133;color: #fff;}
+.cssstyle-style2 #community-wrap .button {background: #B7B200;color: #fff;}
+.cssstyle-style3 #community-wrap .button {background: #CA910B;color: #fff;}
+.cssstyle-style4 #community-wrap .button {background: #B03336;color: #fff;}
+.cssstyle-style5 #community-wrap .button {background: #333333;color: #fff;}
+.cssstyle-style6 #community-wrap .button {background: #009999;color: #fff;}
+.cssstyle-style7 #community-wrap .button {background: #9EB01C;color: #fff;}
+.cssstyle-style8 #community-wrap .button {background: #83AD03;color: #fff;}
+.cssstyle-style9 #community-wrap .button {background: #E68804;color: #fff;}
+
+/* Main Login */
+body #community-wrap div.greybox div div div.loginform input.frontlogin {font-weight: normal;}
+body #community-wrap div.greybox {border: none;}
+body #community-wrap div.greybox div {border:  none;}
+body #community-wrap div.greybox div div {border:  none;background: none;}
+body.cssstyle-style1 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style2 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style3 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style4 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style5 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style6 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style7 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body.cssstyle-style8 #community-wrap div.greybox {background-color: #414141;border: 1px solid #cccccc;}
+body.cssstyle-style9 #community-wrap div.greybox {background-color: #F1F1F1;border: 1px solid #cccccc;}
+body .body-overlay-light #community-wrap div.greybox div {background: none;}
+body .body-overlay-light #community-wrap div.greybox div div {background: none;}
+body #community-wrap div.greybox div div div.loginform {background: none;}
+body #community-wrap div.greybox div div div h2 {color: inherit;}
+body.font-family-enigmatic #community-wrap div.greybox div div div h2 {font-family: Enigmatic,Helvetica,Arial,sans-serif;}
+body #community-wrap div.greybox .joinbutton {display: inline-block;height: 30px;margin: 0 0 0 5px;padding: 0;}
+body.cssstyle-style1 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style2 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style3 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style4 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style5 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style6 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style7 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style8 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style9 #community-wrap div.greybox .joinbutton {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/readon-r.png) no-repeat 100% 0;}
+body #community-wrap div.greybox a#joinButton:hover {background-position: 0 -36px;}
+body #community-wrap div.greybox .joinbutton:hover {background-position: 100% -36px !important;}
+body #community-wrap div.greybox a#joinButton {border: 0;display: block;font-size: 13px;font-weight: normal;height: 30px;line-height: 30px;margin: 0 0 0 -5px;padding: 0 28px 0 10px;}
+body.cssstyle-style1 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style2 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style3 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style4 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style5 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style6 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style7 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style8 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style9 #community-wrap div.greybox a#joinButton {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/readon-l.png) no-repeat;color: #fff;}
+body #community-wrap ul#featurelist li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/icons/icon-check.png) no-repeat;}
+
+/* Main Login Button */
+body #community-wrap div.greybox .loginform div {display: inline-block;height: 30px;margin: 0 0 0 5px;padding:0 !important;text-align: left !important;}
+body #community-wrap div.greybox .loginform div:hover {background-position: 100% -36px !important;}
+body.cssstyle-style1 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style2 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style3 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style4 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style5 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style6 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style7 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style8 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/readon-r.png) no-repeat 100% 0;}
+body.cssstyle-style9 #community-wrap div.greybox .loginform div {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/readon-r.png) no-repeat 100% 0;}
+body #rt-main #community-wrap .loginform #form-login #submit {border: 0;margin: 0 0 0 -5px;height: 30px;line-height: 30px;padding: 0 28px 0 10px;}
+body #rt-main #community-wrap .loginform #form-login #submit:hover {background-position: 0 -36px;}
+body.cssstyle-style1 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style2 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style3 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style4 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style5 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style6 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style7 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style8 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/readon-l.png) no-repeat;color: #fff;}
+body.cssstyle-style9 #community-wrap .loginform #form-login #submit {background:url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/readon-l.png) no-repeat;color: #fff;}
+body #community-wrap .loginform span {display: inline-block;}
+
+/* Denied Box */
+.denied-box {background: none;border: 0;}
+body #rt-main #community-wrap .denied-box .loginform #form-login #submit {height: 30px;line-height: 30px;border: none;}
+body.cssstyle-style1 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #E57133;color: #fff;}
+body.cssstyle-style2 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #B7B200;color: #fff;}
+body.cssstyle-style3 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #CA910B;color: #fff;}
+body.cssstyle-style4 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #B03336;color: #fff;}
+body.cssstyle-style5 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #333333;color: #fff;}
+body.cssstyle-style6 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #009999;color: #fff;}
+body.cssstyle-style7 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #9EB01C;color: #fff;}
+body.cssstyle-style8 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #83AD03;color: #fff;}
+body.cssstyle-style9 #rt-main #community-wrap .denied-box .loginform #form-login #submit {background: #E68804;color: #fff;}
+
+/* Main Menu */
+body.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/menubar-m.png) repeat-x !important;}
+body.cssstyle-style2 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/menubar-m.png) repeat-x !important;}
+body.cssstyle-style3 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/menubar-m.png) repeat-x !important;}
+body.cssstyle-style4 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/menubar-m.png) repeat-x !important;}
+body.cssstyle-style5 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/menubar-m.png) repeat-x !important;}
+body.cssstyle-style6 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/menubar-m.png) repeat-x !important;}
+body.cssstyle-style7 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/menubar-m.png) repeat-x !important;}
+body.cssstyle-style8 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/menubar-m.png) repeat-x !important;}
+body.cssstyle-style9 #community-wrap #cToolbarNav.cToolbar {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/menubar-m.png) repeat-x !important;}
+#community-wrap .cToolbar {background: none !important;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li {background: none !important;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a {background: none !important;padding: 0px 10px !important;}
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #6F627B !important;}
+.cssstyle-style2 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #504A41 !important;}
+.cssstyle-style3 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #555555 !important;}
+.cssstyle-style4 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #555555 !important;}
+.cssstyle-style5 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #4A64A0 !important;}
+.cssstyle-style6 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #435465 !important;}
+.cssstyle-style7 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #555555 !important;}
+.cssstyle-style8 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #555555 !important;}
+.cssstyle-style9 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {background: #716751 !important;}
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a {color: #E4DEEB !important;}
+
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a {text-shadow: none;color: inherit !important;}
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #6F627B !important;}
+.cssstyle-style2 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #504A41 !important;}
+.cssstyle-style3 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #555555 !important;}
+.cssstyle-style4 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #555555 !important;}
+.cssstyle-style5 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #4A64A0 !important;}
+.cssstyle-style6 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #435465 !important;}
+.cssstyle-style7 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #555555 !important;}
+.cssstyle-style8 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #555555 !important;}
+.cssstyle-style9 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {background: #716571 !important;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li#toolbar-item-logout, #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li#toolbar-item-logout a {color: inherit !important;}
+
+/* Sub Menu */
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #403A47 !important;}
+.cssstyle-style2 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #393227 !important;}
+.cssstyle-style3 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #393939 !important;}
+.cssstyle-style4 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #393939 !important;}
+.cssstyle-style5 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #335194 !important;}
+.cssstyle-style6 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #2A3747 !important;}
+.cssstyle-style7 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #393939 !important;}
+.cssstyle-style8 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #393939 !important;}
+.cssstyle-style9 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a {background: #534B3A !important;}
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #6F627B !important;}
+.cssstyle-style2 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #504A41 !important;}
+.cssstyle-style3 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #555555 !important;}
+.cssstyle-style4 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #555555 !important;}
+.cssstyle-style5 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #4A64A0 !important;}
+.cssstyle-style6 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #435465 !important;}
+.cssstyle-style7 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #555555 !important;}
+.cssstyle-style8 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #555555 !important;}
+.cssstyle-style9 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {background: #716751 !important;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a {color: #E4DEEB !important;}
+
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #403A47 !important;}
+.cssstyle-style2 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #393227 !important;}
+.cssstyle-style3 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #393939 !important;}
+.cssstyle-style4 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #393939 !important;}
+.cssstyle-style5 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #335194 !important;}
+.cssstyle-style6 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #2A3747 !important;}
+.cssstyle-style7 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #393939 !important;}
+.cssstyle-style8 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #393939 !important;}
+.cssstyle-style9 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a:hover {background: #534B3A !important;}
+.cssstyle-style1 #community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a {border: 1px solid #3D3D3D !important;}
+
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a.has-separator {border: 1px solid #3D3D3D !important;}
+
+/* Front Page */
+#community-wrap .componentheading {margin: -8px -8px 12px;padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #community-wrap .componentheading {background: #6F627B;color: #fff;}
+.cssstyle-style2 #community-wrap .componentheading {background: #504A41;color: #fff;}
+.cssstyle-style3 #community-wrap .componentheading {background: #555555;color: #fff;}
+.cssstyle-style4 #community-wrap .componentheading {background: #555555;color: #fff;}
+.cssstyle-style5 #community-wrap .componentheading {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #community-wrap .componentheading {background: #435465;color: #fff;}
+.cssstyle-style7 #community-wrap .componentheading {background: #555555;color: #fff;}
+.cssstyle-style8 #community-wrap .componentheading {background: #555555;color: #fff;}
+.cssstyle-style9 #community-wrap .componentheading {background: #716751;color: #fff;}
+
+/* App Boxes */
+#community-wrap .app-box-content {padding-top: 10px;}
+#community-wrap .app-box-header {background: none;}
+#community-wrap .app-box {padding: 15px;width: 95%;}
+#community-wrap .app-box.collapse {padding: 15px 15px 0;}
+#community-wrap .app-box-header .app-box-header, #community-wrap .app-box.collapse .app-box-header .app-box-header {margin: -8px -8px 12px;padding: 7px;font-size: 140%;line-height: 130%;letter-spacing: 1px;}
+.cssstyle-style1 #community-wrap .app-box-header .app-box-header, .cssstyle-style1 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #6F627B;color: #fff;}
+.cssstyle-style2 #community-wrap .app-box-header .app-box-header, .cssstyle-style2 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #504A41;color: #fff;}
+.cssstyle-style3 #community-wrap .app-box-header .app-box-header, .cssstyle-style3 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #555555;color: #fff;}
+.cssstyle-style4 #community-wrap .app-box-header .app-box-header, .cssstyle-style4 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #555555;color: #fff;}
+.cssstyle-style5 #community-wrap .app-box-header .app-box-header, .cssstyle-style5 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #community-wrap .app-box-header .app-box-header, .cssstyle-style6 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #435465;color: #fff;}
+.cssstyle-style7 #community-wrap .app-box-header .app-box-header, .cssstyle-style7 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #555555;color: #fff;}
+.cssstyle-style8 #community-wrap .app-box-header .app-box-header, .cssstyle-style8 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #555555;color: #fff;}
+.cssstyle-style9 #community-wrap .app-box-header .app-box-header, .cssstyle-style9 #community-wrap .app-box.collapse .app-box-header .app-box-header {background: #716751;color: #fff;}
+#community-wrap .app-box-title {color: inherit;}
+#community-banlists-news-items {padding: 0 !important;}
+#community-banlists-news-items .app-box {width: 100% !important;padding: 0 !important;}
+#community-banlists-news-items .app-box  h2 {padding-left: 5px;}
+div.joms-newsfeed-item {border-bottom: 0 !important;margin-bottom: 5px;}
+
+/* App Box Event */
+.cssstyle-style1 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style2 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style3 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style4 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style5 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style6 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style7 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style8 #community-wrap #community-event-rsvp-status {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style9 #community-wrap #community-event-rsvp-status {background-color: #F1F1F1;border: 1px solid #cccccc;}
+
+/* App Buttons */
+#community-wrap .app-box-menu.toggle .app-box-menu-icon {background-position: -16px -63px;background-repeat: no-repeat;}
+#community-wrap .app-box.collapse .app-box-menu.toggle .app-box-menu-icon {background-position: 0 -63px;background-repeat: no-repeat;}
+.cssstyle-style1 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/utility-icons.png);}
+.cssstyle-style2 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/utility-icons.png);}
+.cssstyle-style3 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/utility-icons.png);}
+.cssstyle-style4 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/utility-icons.png);}
+.cssstyle-style5 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/utility-icons.png);}
+.cssstyle-style6 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/utility-icons.png);}
+.cssstyle-style7 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/utility-icons.png);}
+.cssstyle-style8 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/utility-icons.png);}
+.cssstyle-style9 #community-wrap .app-box-menu.toggle .app-box-menu-icon {background-image: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/utility-icons.png);}
+
+/* Events */
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style1 #community-wrap .community-events-results-item {background-color: #F1F1F1;border: 1px solid #cccccc;}
+
+/* Feed */
+div.joms-newsfeed-item .newsfeed-content-hidden {border: 0;}
+
+/* Side Bar Modules (search etc etc) */
+#community-wrap .cModule {border: 0;padding: 15px;}
+#community-wrap .cModule h3 {margin: -8px -8px 12px;padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style2 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style3 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style4 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style5 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style6 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style7 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style8 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style9 #community-wrap .cModule h3 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+#community-wrap .cModule.latest-groups li.featured {width: auto;}
+#community-wrap .cModule.latest-groups li.featured a img {padding: 5px;}
+#community-wrap .app-box-footer {border: 0;}
+#community-wrap a img.avatar, #community-wrap a:hover img.avatar {border: 0;padding: 2px;}
+#community-wrap dl.profile-right-info dd  {color: inherit;}
+#community-wrap .cModule h4 {border: 0;color: inherit;}
+
+/* Profile */
+.cssstyle-style1 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style2 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style3 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style4 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style5 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style6 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style7 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style8 #community-wrap div.profile-box {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style9 #community-wrap div.profile-box {background-color: #F1F1F1;border: 1px solid #cccccc;}
+#community-wrap div.profile-toolbox-bl, #community-wrap div.profile-toolbox-br, #community-wrap div.profile-toolbox-tl  {background: none !important;}
+
+/* Sub Menus */
+#community-wrap .cSubmenu {border: 1px solid #ccc;}
+#community-wrap ul.submenu li a, #community-wrap ul.submenu li span {border: 0;}
+#community-wrap ul.submenu li a:hover, #community-wrap ul.submenu li span:hover {text-decoration: underline;}
+.cssstyle-style1 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #E57133;}
+.cssstyle-style2 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #B7B200;}
+.cssstyle-style3 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #CA910B;}
+.cssstyle-style4 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #B03336;}
+.cssstyle-style5 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #333333;}
+.cssstyle-style6 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #009999;}
+.cssstyle-style7 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #9EB01C;}
+.cssstyle-style8 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #83AD03;}
+.cssstyle-style9 #community-wrap ul.submenu li a, #community-wrap ul.submenu li span {color: #E68804;}
+
+/* Groups */
+#community-wrap ul.group-menus li a, #community-wrap ul.event-menus li a {border: 0;}
+#community-wrap ul.group-menus li.important a, #community-wrap ul.event-menus li.important a {color: #993333 !important;}
+.cssstyle-style1 #community-wrap ul.group-menus li, .cssstyle-style1 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style2 #community-wrap ul.group-menus li, .cssstyle-style2 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style3 #community-wrap ul.group-menus li, .cssstyle-style3 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style4 #community-wrap ul.group-menus li, .cssstyle-style4 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style5 #community-wrap ul.group-menus li, .cssstyle-style5 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style6 #community-wrap ul.group-menus li, .cssstyle-style6 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style7 #community-wrap ul.group-menus li, .cssstyle-style7 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style8 #community-wrap ul.group-menus li, .cssstyle-style8 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style9 #community-wrap ul.group-menus li, .cssstyle-style9 #community-wrap ul.event-menus li {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style1 #community-wrap ul.group-menus li a, .cssstyle-style1 #community-wrap ul.event-menus li a {color: #E57133;}
+.cssstyle-style2 #community-wrap ul.group-menus li a, .cssstyle-style2 #community-wrap ul.event-menus li a {color: #B7B200;}
+.cssstyle-style3 #community-wrap ul.group-menus li a, .cssstyle-style3 #community-wrap ul.event-menus li a {color: #CA910B;}
+.cssstyle-style4 #community-wrap ul.group-menus li a, .cssstyle-style4 #community-wrap ul.event-menus li a {color: #B03336;}
+.cssstyle-style5 #community-wrap ul.group-menus li a, .cssstyle-style5 #community-wrap ul.event-menus li a {color: #333333;}
+.cssstyle-style6 #community-wrap ul.group-menus li a, .cssstyle-style6 #community-wrap ul.event-menus li a {color: #009999;}
+.cssstyle-style7 #community-wrap ul.group-menus li a, .cssstyle-style7 #community-wrap ul.event-menus li a {color: #9EB01C;}
+.cssstyle-style8 #community-wrap ul.group-menus li a, .cssstyle-style8 #community-wrap ul.event-menus li a {color: #83AD03;}
+.cssstyle-style9 #community-wrap ul.group-menus li a, .cssstyle-style9 #community-wrap ul.event-menus li a {color: #E68804;}
+#community-wrap div.ctitle {border: 0;}
+.cssstyle-style1 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style2 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style3 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style4 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style5 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style6 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style7 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style8 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/body-div.png) 50% 100% repeat-x;}
+.cssstyle-style9 #community-wrap div.ctitle {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/body-div.png) 50% 100% repeat-x;}
+
+/* K2 OVERRIDES */
+
+/* K2 General */
+#k2Container .button {height: 30px;line-height: 30px;border: none;}
+.cssstyle-style1 #k2Container .button {background: #E57133;color: #fff;}
+.cssstyle-style2 #k2Container .button {background: #B7B200;color: #fff;}
+.cssstyle-style3 #k2Container .button {background: #CA910B;color: #fff;}
+.cssstyle-style4 #k2Container .button {background: #B03336;color: #fff;}
+.cssstyle-style5 #k2Container .button {background: #333333;color: #fff;}
+.cssstyle-style6 #k2Container .button {background: #009999;color: #fff;}
+.cssstyle-style7 #k2Container .button {background: #9EB01C;color: #fff;}
+.cssstyle-style8 #k2Container .button {background: #83AD03;color: #fff;}
+.cssstyle-style9 #k2Container .button {background: #E68804;color: #fff;}
+
+/* K2 Toolbar */
+#k2Container .itemToolbar, #k2Container .itemNavigation {padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #k2Container .itemToolbar, .cssstyle-style1 #k2Container .itemNavigation {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+
+/* Article */
+#k2Container .itemHitsTwitter, #k2Container .itemCategory, #k2Container .itemTagsBlock, #k2Container .itemSocialLinksBlock, #k2Container .catItemCategory, #k2Container .catItemTagsBlock {border: none;}
+.cssstyle-style1 #k2Container .itemHitsTwitter, .cssstyle-style1 #k2Container .itemCategory, .cssstyle-style1 #k2Container .itemTagsBlock, .cssstyle-style1 #k2Container .itemSocialLinksBlock, .cssstyle-style1 #k2Container .catItemCategory, .cssstyle-style1 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style2 #k2Container .itemHitsTwitter, .cssstyle-style2 #k2Container .itemCategory, .cssstyle-style2 #k2Container .itemTagsBlock, .cssstyle-style2 #k2Container .itemSocialLinksBlock, .cssstyle-style2 #k2Container .catItemCategory, .cssstyle-style2 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style3 #k2Container .itemHitsTwitter, .cssstyle-style3 #k2Container .itemCategory, .cssstyle-style3 #k2Container .itemTagsBlock, .cssstyle-style3 #k2Container .itemSocialLinksBlock, .cssstyle-style3 #k2Container .catItemCategory, .cssstyle-style3 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style4 #k2Container .itemHitsTwitter, .cssstyle-style4 #k2Container .itemCategory, .cssstyle-style4 #k2Container .itemTagsBlock, .cssstyle-style4 #k2Container .itemSocialLinksBlock, .cssstyle-style4 #k2Container .catItemCategory, .cssstyle-style4 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style5 #k2Container .itemHitsTwitter, .cssstyle-style5 #k2Container .itemCategory, .cssstyle-style5 #k2Container .itemTagsBlock, .cssstyle-style5 #k2Container .itemSocialLinksBlock, .cssstyle-style5 #k2Container .catItemCategory, .cssstyle-style5 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style6 #k2Container .itemHitsTwitter, .cssstyle-style6 #k2Container .itemCategory, .cssstyle-style6 #k2Container .itemTagsBlock, .cssstyle-style6 #k2Container .itemSocialLinksBlock, .cssstyle-style6 #k2Container .catItemCategory, .cssstyle-style6 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style7 #k2Container .itemHitsTwitter, .cssstyle-style7 #k2Container .itemCategory, .cssstyle-style7 #k2Container .itemTagsBlock, .cssstyle-style7 #k2Container .itemSocialLinksBlock, .cssstyle-style7 #k2Container .catItemCategory, .cssstyle-style7 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style8 #k2Container .itemHitsTwitter, .cssstyle-style8 #k2Container .itemCategory, .cssstyle-style8 #k2Container .itemTagsBlock, .cssstyle-style8 #k2Container .itemSocialLinksBlock, .cssstyle-style8 #k2Container .catItemCategory, .cssstyle-style8 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/body-div.png) 50% 0 repeat-x;}
+.cssstyle-style9 #k2Container .itemHitsTwitter, .cssstyle-style9 #k2Container .itemCategory, .cssstyle-style9 #k2Container .itemTagsBlock, .cssstyle-style9 #k2Container .itemSocialLinksBlock, .cssstyle-style9 #k2Container .catItemCategory, .cssstyle-style9 #k2Container .catItemTagsBlock {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/body-div.png) 50% 0 repeat-x;}
+
+/* Author Block */
+.cssstyle-style1 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style2 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style3 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style4 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style5 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style6 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style7 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style8 #k2Container .itemAuthorBlock {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style9 #k2Container .itemAuthorBlock {background-color: #F1F1F1;border: 1px solid #cccccc;}
+#k2Container .itemAuthorAvatar {border: 1px solid #cccccc;}
+
+/* Comments */
+.cssstyle-style1 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style2 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style3 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style4 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style5 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style6 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style7 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style8 #k2Container .itemComments {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style9 #k2Container .itemComments {background-color: #F1F1F1;border: 1px solid #cccccc;}
+
+/* VIRTUEMART */
+/* General */
+#vmMainPage .button, .vmCartModule .button {height: 30px;line-height: 30px;border: none;display: inline-block;padding: 0px 10px;}
+.cssstyle-style1 #vmMainPage .button, .vmCartModule .button {background: #E57133;color: #fff;}
+.cssstyle-style2 #vmMainPage .button, .vmCartModule .button {background: #B7B200;color: #fff;}
+.cssstyle-style3 #vmMainPage .button, .vmCartModule .button {background: #CA910B;color: #fff;}
+.cssstyle-style4 #vmMainPage .button, .vmCartModule .button {background: #B03336;color: #fff;}
+.cssstyle-style5 #vmMainPage .button, .vmCartModule .button {background: #333333;color: #fff;}
+.cssstyle-style6 #vmMainPage .button, .vmCartModule .button {background: #009999;color: #fff;}
+.cssstyle-style7 #vmMainPage .button, .vmCartModule .button {background: #9EB01C;color: #fff;}
+.cssstyle-style8 #vmMainPage .button, .vmCartModule .button {background: #83AD03;color: #fff;}
+.cssstyle-style9 #vmMainPage .button, .vmCartModule .button {background: #E68804;color: #fff;}
+#vmMainPage h3 {padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #vmMainPage h3 {background: #6F627B;color: #fff;}
+.cssstyle-style2 #vmMainPage h3 {background: #504A41;color: #fff;}
+.cssstyle-style3 #vmMainPage h3 {background: #555555;color: #fff;}
+.cssstyle-style4 #vmMainPage h3 {background: #555555;color: #fff;}
+.cssstyle-style5 #vmMainPage h3 {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #vmMainPage h3 {background: #435465;color: #fff;}
+.cssstyle-style7 #vmMainPage h3 {background: #555555;color: #fff;}
+.cssstyle-style8 #vmMainPage h3 {background: #555555;color: #fff;}
+.cssstyle-style9 #vmMainPage h3 {background: #716751;color: #fff;}
+#vmMainPage h2 {padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #vmMainPage h2 {background: #6F627B;color: #fff;}
+.cssstyle-style2 #vmMainPage h2 {background: #504A41;color: #fff;}
+.cssstyle-style3 #vmMainPage h2 {background: #555555;color: #fff;}
+.cssstyle-style4 #vmMainPage h2 {background: #555555;color: #fff;}
+.cssstyle-style5 #vmMainPage h2 {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #vmMainPage h2 {background: #435465;color: #fff;}
+.cssstyle-style7 #vmMainPage h2 {background: #555555;color: #fff;}
+.cssstyle-style8 #vmMainPage h2 {background: #555555;color: #fff;}
+.cssstyle-style9 #vmMainPage h2 {background: #716751;color: #fff;}
+
+/* Product List */
+#vmMainPage .browseProductContainer {width: 90%;margin: 5px;padding: 10px;}
+.cssstyle-style1 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style2 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style3 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style4 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style5 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style6 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style7 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style8 #vmMainPage .browseProductContainer {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style9 #vmMainPage .browseProductContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+#vmMainPage .browseProductContainer h2 {padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style2 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style3 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style4 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style5 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style6 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style7 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style8 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style9 #vmMainPage .browseProductContainer h2 {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+
+/* Product Page */
+#vmMainPage h1 {padding: 7px;font-weight: normal;font-size: 140%;line-height: 130%;letter-spacing: 1px;border: none;}
+.cssstyle-style1 #vmMainPage h1 {background: #6F627B;color: #fff;}
+.cssstyle-style2 #vmMainPage h1 {background: #504A41;color: #fff;}
+.cssstyle-style3 #vmMainPage h1 {background: #555555;color: #fff;}
+.cssstyle-style4 #vmMainPage h1 {background: #555555;color: #fff;}
+.cssstyle-style5 #vmMainPage h1 {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #vmMainPage h1 {background: #435465;color: #fff;}
+.cssstyle-style7 #vmMainPage h1 {background: #555555;color: #fff;}
+.cssstyle-style8 #vmMainPage h1 {background: #555555;color: #fff;}
+.cssstyle-style9 #vmMainPage h1 {background: #716751;color: #fff;}
+.cssstyle-style1 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style2 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style3 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style4 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style5 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style6 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style7 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+.cssstyle-style8 #vmMainPage .vmCartContainer {background-color: #414141;border: 1px solid #cccccc;}
+.cssstyle-style9 #vmMainPage .vmCartContainer {background-color: #F1F1F1;border: 1px solid #cccccc;}
+#vmMainPage .vmCartContainer .vmRowTwo {border: none;background: none;}
+
+/* TIENDA */
+/* General */
+.cartitems .button, #onCheckout_wrapper .button {height: 30px;line-height: 30px;border: none;display: inline-block;padding: 0px 10px;}
+.cssstyle-style1 .cartitems .button, .cssstyle-style1 #onCheckout_wrapper .button {background: #E57133;color: #fff;}
+.cssstyle-style2 .cartitems .button, .cssstyle-style2 #onCheckout_wrapper .button {background: #B7B200;color: #fff;}
+.cssstyle-style3 .cartitems .button, .cssstyle-style3 #onCheckout_wrapper .button {background: #CA910B;color: #fff;}
+.cssstyle-style4 .cartitems .button, .cssstyle-style4 #onCheckout_wrapper .button {background: #B03336;color: #fff;}
+.cssstyle-style5 .cartitems .button, .cssstyle-style5 #onCheckout_wrapper .button {background: #333333;color: #fff;}
+.cssstyle-style6 .cartitems .button, .cssstyle-style6 #onCheckout_wrapper .button {background: #009999;color: #fff;}
+.cssstyle-style7 .cartitems .button, .cssstyle-style7 #onCheckout_wrapper .button {background: #9EB01C;color: #fff;}
+.cssstyle-style8 .cartitems .button, .cssstyle-style8 #onCheckout_wrapper .button {background: #83AD03;color: #fff;}
+.cssstyle-style9 .cartitems .button, .cssstyle-style9 #onCheckout_wrapper .button {background: #E68804;color: #fff;}
+
+/* Check Out Process */
+#onCheckout_wrapper .step, .progressbar .step {position: relative;left:  0;top:  0;}
+#onCheckout_wrapper h3, #onCheckoutReview_wrapper h3 {padding: 7px;line-height: 130%;border: none;font-weight: normal;font-size: 140%;letter-spacing: 1px;}
+.cssstyle-style1 #onCheckout_wrapper h3, .cssstyle-style1 #onCheckoutReview_wrapper h3 {background: #6F627B;color: #fff;}
+.cssstyle-style2 #onCheckout_wrapper h3, .cssstyle-style2 #onCheckoutReview_wrapper h3 {background: #504A41;color: #fff;}
+.cssstyle-style3 #onCheckout_wrapper h3, .cssstyle-style3 #onCheckoutReview_wrapper h3 {background: #555555;color: #fff;}
+.cssstyle-style4 #onCheckout_wrapper h3, .cssstyle-style4 #onCheckoutReview_wrapper h3 {background: #555555;color: #fff;}
+.cssstyle-style5 #onCheckout_wrapper h3, .cssstyle-style5 #onCheckoutReview_wrapper h3 {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #onCheckout_wrapper h3, .cssstyle-style6 #onCheckoutReview_wrapper h3 {background: #435465;color: #fff;}
+.cssstyle-style7 #onCheckout_wrapper h3, .cssstyle-style7 #onCheckoutReview_wrapper h3 {background: #555555;color: #fff;}
+.cssstyle-style8 #onCheckout_wrapper h3, .cssstyle-style8 #onCheckoutReview_wrapper h3 {background: #555555;color: #fff;}
+.cssstyle-style9 #onCheckout_wrapper h3, .cssstyle-style9 #onCheckoutReview_wrapper h3 {background: #716751;color: #fff;}
+#form-login td ul {position: absolute;}
+#form-login td span .inputbox {width: auto !important;}
+
+/* Product Page */
+#tienda_products .product_name span {font-size: 140%;}
+#tienda_products .product_name span a {padding: 7px;line-height: 130%;border: none;font-weight: normal;letter-spacing: 1px;display: inline-block;margin-bottom: 10px;}
+.cssstyle-style1 #tienda_products .product_name span a {background: #6F627B;color: #fff;}
+.cssstyle-style2 #tienda_products .product_name span a {background: #504A41;color: #fff;}
+.cssstyle-style3 #tienda_products .product_name span a {background: #555555;color: #fff;}
+.cssstyle-style4 #tienda_products .product_name span a {background: #555555;color: #fff;}
+.cssstyle-style5 #tienda_products .product_name span a {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #tienda_products .product_name span a {background: #435465;color: #fff;}
+.cssstyle-style7 #tienda_products .product_name span a {background: #555555;color: #fff;}
+.cssstyle-style8 #tienda_products .product_name span a {background: #555555;color: #fff;}
+.cssstyle-style9 #tienda_products .product_name span a {background: #716751;color: #fff;}
+#tienda #tienda_product_header {padding: 7px;line-height: 130%;border: none;}
+#tienda .product_name {font-weight: normal;font-size: 140%;letter-spacing: 1px;}
+.cssstyle-style1 #tienda #tienda_product_header {background: #6F627B;color: #fff;}
+.cssstyle-style2 #tienda #tienda_product_header {background: #504A41;color: #fff;}
+.cssstyle-style3 #tienda #tienda_product_header {background: #555555;color: #fff;}
+.cssstyle-style4 #tienda #tienda_product_header {background: #555555;color: #fff;}
+.cssstyle-style5 #tienda #tienda_product_header {background: #4A64A0;color: #fff;}
+.cssstyle-style6 #tienda #tienda_product_header {background: #435465;color: #fff;}
+.cssstyle-style7 #tienda #tienda_product_header {background: #555555;color: #fff;}
+.cssstyle-style8 #tienda #tienda_product_header {background: #555555;color: #fff;}
+.cssstyle-style9 #tienda #tienda_product_header {background: #716751;color: #fff;}
+#tienda #product_description_header {padding: 7px;line-height: 130%;letter-spacing: 1px;border: none;}
+#tienda #product_description_header span {font-weight: normal;font-size: 140%;}
+.cssstyle-style1 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style1/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style2 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style2/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style3 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style3/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style4 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style4/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style5 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style5/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style6 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style6/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style7 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style7/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style8 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style8/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+.cssstyle-style9 #tienda #product_description_header {background: url(http://web.archive.org/web/20110209164448im_/http://www.zitux.com/templates/rt_omnicron_j15/images/style9/title1-bg.png) repeat-x #DCDCDC;color: #666666;}
+#tienda .product_numbers .title {color: inherit !important;}
+
+/* CSS3 Block */
+/* Jom Social */
+#community-wrap div.greybox {border-radius: 6px;}
+#community-wrap .button {border-radius: 5px;}
+#community-wrap .button:hover {border-radius: 5px;}
+body #community-wrap div.greybox a#joinButton:hover {border-radius: 5px;}
+body #rt-main #community-wrap .loginform #form-login #submit:hover {border-radius: 5px;}
+#community-wrap #cToolbarNav.cToolbar {border-radius: 6px;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li a:hover {border-radius: 6px;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li div a:hover {border-radius: 0;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active a {border-radius: 6px;}
+#community-wrap #cToolbarNav.cToolbar ul#cToolbarNavList li.toolbar-active div a {border-radius: 0;}
+#community-wrap .app-box-header .app-box-header, #community-wrap .app-box.collapse .app-box-header .app-box-header, #community-wrap #community-event-rsvp-status{border-radius: 6px;}
+#community-wrap .componentheading, #community-wrap .cModule h3, #community-wrap .cSubmenu {border-radius: 6px;}
+#community-wrap div.profile-box {border-radius: 6px;}
+
+/* K2 */
+#k2Container .button {border-radius: 5px;}
+#k2Container .button:hover {border-radius: 5px;}
+#k2Container .itemToolbar, #k2Container .itemNavigation {border-radius: 6px;}
+#k2Container .itemAuthorBlock {border-radius: 6px;}
+#k2Container .itemAuthorAvatar {border-radius: 6px;}
+#k2Container .itemComments {border-radius: 6px;}
+
+/* Virtuemart */
+#vmMainPage .button, .vmCartModule .button {border-radius: 5px;}
+#vmMainPage .button:hover, .vmCartModule .button {border-radius: 5px;}
+#vmMainPage .browseProductContainer, #vmMainPage .browseProductContainer h2, #vmMainPage h1, #vmMainPage h2, #vmMainPage h3, #vmMainPage .vmCartContainer {border-radius: 6px;}
+
+/* Tienda */
+.cartitems .button, .cartitems .button:hover, #onCheckout_wrapper .button, #onCheckout_wrapper .button:hover {border-radius: 5px;}
+#tienda #tienda_product_header, #tienda #product_description_header, #onCheckout_wrapper h3, #onCheckoutReview_wrapper h3, #tienda_products .product_name span a {border-radius: 6px;}
+
+/* Ninjaboard */
+.ninjaboard .pagination .limit, .ninjaboard .pagination .count {margin-top: 3px;}
+/*
+     FILE ARCHIVED ON 16:44:48 Feb 09, 2011 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 21:30:45 Sep 07, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  captures_list: 0.564
+  exclusion.robots: 0.02
+  exclusion.robots.policy: 0.009
+  esindex: 0.011
+  cdx.remote: 8.913
+  LoadShardBlock: 83.556 (3)
+  PetaboxLoader3.datanode: 51.924 (4)
+  PetaboxLoader3.resolve: 76.861 (2)
+  load_resource: 54.678
+*/
